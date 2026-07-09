@@ -10,6 +10,10 @@
   color: #e9b44c;
 }
 
+.section-measurment{
+  padding: 80px 8%;
+}
+
 /* Common Styles End */
 
 /* Navbar Styles Start */
@@ -97,3 +101,50 @@ header {
   background-color: #fcce72;
 }
 /* Header Section End */
+
+/* Our Story Section Start */
+#our-story{
+  background-color: rgb(251, 246, 239);
+}
+
+.our-story-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 47px;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-img img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.story-content{
+  display: grid;
+  gap: 12px;
+}
+
+.story-content p{
+  font-size: 14px;
+  color: #5A4F47;
+}
+
+.story-content h3{
+  color: #2E2622;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.story-content button{
+  width: 163px;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 28px;
+  background-color: #e9b44c;
+  color: #2E2622;
+  font-size: 13px;
+  font-weight: bold;
+  
+}
+/* Our Story Section End */
