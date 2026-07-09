@@ -148,3 +148,66 @@ header {
   
 }
 /* Our Story Section End */
+
+/* Popular Section Start */
+
+#popular{
+  background-color: rgb(241, 231, 216);
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+.card{
+  background-color: #FFFFFF;
+  padding: 23px;
+  border: none;
+  border-radius: 12px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.card h3{
+  font-size: 17px;
+  font-weight: bold;
+  color: #2E2622;
+}
+
+.card-sub{
+  color: #2E2622;
+  font-size: 14px;
+}
+
+.card img{
+  margin-bottom: 20px;
+}
+
+.card-price{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.top-content{
+  text-align: center;
+}
+
+.top-content h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #2E2622;
+  margin-bottom: 48px;
+  
+}
+
+.top-content p{
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+/* Popular Section End */
