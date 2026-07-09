@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Styles Start */
+
+.coffee-yellow{
+    color: #E9B44C;
+}
+
+/* Common Styles End */
+
+/* Navbar Styles Start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E2622;
+    align-items: center;
+    padding: 13px 8%;
+}
+
+.right-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.right-nav ul a{
+    text-decoration: none;
+    color: #FBF6EF;
+}
+
+.left-nav{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.web-name-img{
+    transform: rotate(180deg);
+}
+/* Navbar Styles End */
+
