@@ -275,5 +275,45 @@ header {
   margin-bottom: 48px;
 }
 
-
 /* Different Section End */
+
+
+/* Opening Hours Section Start */
+
+#opening-hour{
+  background-color: rgb(251, 246, 239);
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead{
+  background-color: #2E2622;
+  color: #e9b44c;
+}
+
+table, th, td{
+  border: 2px solid black;
+}
+
+th, td{
+  padding: 10px 200px 10px 8px;
+  text-align: left;
+}
+
+.opening-top-content p{
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 7px;
+  
+}
+
+.opening-top-content h3{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 48px;
+  color: #2E2622;
+}
+/* Opening Hours Section End */
