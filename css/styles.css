@@ -10,11 +10,11 @@
   color: #e9b44c;
 }
 
-.section-measurment{
+.section-measurment {
   padding: 80px 8%;
 }
 
-.middle{
+.middle {
   text-align: center;
 }
 
@@ -107,11 +107,11 @@ header {
 /* Header Section End */
 
 /* Our Story Section Start */
-#our-story{
+#our-story {
   background-color: rgb(251, 246, 239);
 }
 
-.our-story-container{
+.our-story-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 47px;
@@ -119,58 +119,58 @@ header {
   align-items: center;
 }
 
-.story-img img{
+.story-img img {
   max-width: 100%;
   border-radius: 10px;
 }
 
-.story-content{
+.story-content {
   display: grid;
   gap: 12px;
 }
 
-.story-content p{
+.story-content p {
   font-size: 14px;
-  color: #5A4F47;
+  color: #5a4f47;
 }
 
-.story-content h3{
-  color: #2E2622;
+.story-content h3 {
+  color: #2e2622;
   font-size: 28px;
   font-weight: bold;
 }
 
-.story-content button{
+.story-content button {
   width: 163px;
   padding: 12px 32px;
   border: none;
   border-radius: 28px;
   background-color: #e9b44c;
-  color: #2E2622;
+  color: #2e2622;
   font-size: 13px;
   font-weight: bold;
   cursor: pointer;
 }
 
-.story-content button:hover{
+.story-content button:hover {
   background-color: #fcce72;
 }
 /* Our Story Section End */
 
 /* Popular Section Start */
 
-#popular{
+#popular {
   background-color: rgb(241, 231, 216);
 }
 
-.card-container{
+.card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 28px;
 }
 
-.card{
-  background-color: #FFFFFF;
+.card {
+  background-color: #ffffff;
   padding: 23px;
   border: none;
   border-radius: 12px;
@@ -181,39 +181,38 @@ header {
   gap: 15px;
 }
 
-.card h3{
+.card h3 {
   font-size: 17px;
   font-weight: bold;
-  color: #2E2622;
+  color: #2e2622;
 }
 
-.card-sub{
-  color: #2E2622;
+.card-sub {
+  color: #2e2622;
   font-size: 14px;
 }
 
-.card img{
+.card img {
   margin-bottom: 20px;
 }
 
-.card-price{
+.card-price {
   font-size: 16px;
   font-weight: bold;
 }
 
-.top-content{
+.top-content {
   text-align: center;
 }
 
-.top-content h2{
+.top-content h2 {
   font-size: 30px;
   font-weight: bold;
-  color: #2E2622;
+  color: #2e2622;
   margin-bottom: 48px;
-  
 }
 
-.top-content p{
+.top-content p {
   font-size: 12px;
   letter-spacing: 2px;
   margin-bottom: 8px;
@@ -222,113 +221,108 @@ header {
 
 /* Different Section Start */
 
-#different{
+#different {
   background-color: rgb(251, 246, 239);
 }
 
-.box-container{
+.box-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
-  
 }
 
-.box{
-  
+.box {
   display: grid;
   text-align: center;
   justify-items: center;
   padding: 18px;
-  
-  
 }
 
-.box img{
-  
+.box img {
   height: 63px;
   width: 63px;
   margin-bottom: 15px;
 }
 
-.box h2{
+.box h2 {
   font-size: 16px;
   font-weight: bold;
-  color: #2E2622;
+  color: #2e2622;
 }
 
-.box p{
+.box p {
   font-size: 14px;
-  color: #2E2622;
+  color: #2e2622;
 }
 
-.diff-top-content p{
+.diff-top-content p {
   font-size: 11px;
   color: #e9b44c;
   letter-spacing: 2px;
   margin-bottom: 7px;
 }
 
-.diff-top-content h2{
+.diff-top-content h2 {
   font-size: 32px;
   font-weight: bold;
-  color: #2E2622;
+  color: #2e2622;
   margin-bottom: 48px;
 }
 
 /* Different Section End */
 
-
 /* Opening Hours Section Start */
 
-#opening-hour{
+#opening-hour {
   background-color: rgb(251, 246, 239);
 }
 
-table{
+table {
   border-collapse: collapse;
   margin: 0 auto;
 }
 
-thead{
-  background-color: #2E2622;
+thead {
+  background-color: #2e2622;
   color: #e9b44c;
 }
 
-table, th, td{
+table,
+th,
+td {
   border: 2px solid black;
 }
 
-th, td{
+th,
+td {
   padding: 10px 200px 10px 8px;
   text-align: left;
 }
 
-.opening-top-content p{
+.opening-top-content p {
   font-size: 12px;
   letter-spacing: 2px;
   margin-bottom: 7px;
-  
 }
 
-.opening-top-content h3{
+.opening-top-content h3 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 48px;
-  color: #2E2622;
+  color: #2e2622;
 }
 /* Opening Hours Section End */
 
 /* Always Open Section Start */
 
-#always-open{
+#always-open {
   background-color: rgb(251, 246, 239);
-  
 }
 
-.open-img-container{
+.open-img-container {
   position: relative;
 }
-.open-img-container img{
+.open-img-container img {
   width: 100%;
   transform: rotate(180deg);
   height: 378px;
@@ -337,10 +331,9 @@ th, td{
   border-radius: 14px;
 }
 
-.first{
-  
+.first {
   padding: 10px 18px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
   position: absolute;
   bottom: 25px;
@@ -348,20 +341,20 @@ th, td{
   border-radius: 8px;
 }
 
-.first h2{
+.first h2 {
   font-size: 14px;
   font-weight: bold;
-  color: #2E2622;
+  color: #2e2622;
   margin-bottom: 3px;
 }
 
-.first p{
+.first p {
   font-size: 11px;
-  color: #5A4F47;
+  color: #5a4f47;
 }
 
-.last{
-  background-color: #FFFFFF;
+.last {
+  background-color: #ffffff;
   /* padding: 12px 20px; */
   position: absolute;
   right: 13px;
@@ -375,109 +368,107 @@ th, td{
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  
 }
 
-.last h2{
+.last h2 {
   font-size: 22px;
   font-weight: bold;
-  color: #2E2622;
+  color: #2e2622;
 }
 
-.last p{
+.last p {
   font-size: 10px;
   letter-spacing: 1px;
-  color: #7A6F63;
+  color: #7a6f63;
 }
 /* Always Open Section End */
 
 /* Footer Section Start */
-footer{
-  background-color: #2E2622;
+footer {
+  background-color: #2e2622;
 }
 
-.footer-top{
+.footer-top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
-  
 }
 
-.links{
+.links {
   display: grid;
   gap: 5px;
-  color: #CFC6BB;
+  color: #cfc6bb;
 }
 
-.pic-footer{
+.pic-footer {
   display: flex;
   gap: 4px;
 }
 
-.pic-footer h2{
+.pic-footer h2 {
   color: #e9b44c;
   font-size: 16px;
   font-weight: bold;
 }
 
-.pic-footer img{
+.pic-footer img {
   transform: rotate(180deg);
   width: 23px;
   height: 23px;
 }
 
-.footer-first p{
+.footer-first p {
   font-size: 12px;
-  color: #CFC6BB;
+  color: #cfc6bb;
   margin-top: 12px;
 }
 
-.footer-second{
+.footer-second {
   justify-self: center;
 }
 
-.footer-second h3{
+.footer-second h3 {
   font-size: 16px;
   font-weight: bold;
   color: #e9b44c;
   margin-bottom: 20px;
 }
 
-.footer-third{
+.footer-third {
   justify-self: end;
 }
 
-.footer-third h3{
+.footer-third h3 {
   font-size: 16px;
   font-weight: bold;
   color: #e9b44c;
   margin-bottom: 20px;
 }
 
-.contact{
+.contact {
   display: grid;
   gap: 5px;
-  color: #CFC6BB;
+  color: #cfc6bb;
 }
 
-hr{
+hr {
   margin: 25px 0;
 }
 
-.footer-bottom{
+.footer-bottom {
   display: flex;
   justify-content: space-between;
-  
 }
 
-.footer-bottom p{
+.footer-bottom p {
   font-size: 14px;
-  color: #CFC6BB;
+  color: #cfc6bb;
 }
 
-.footer-bottom-img{
+.footer-bottom-img {
   display: flex;
   gap: 8px;
-  
 }
 /* Footer Section End */
+
+/* Project Done */
